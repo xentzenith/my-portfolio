@@ -8,7 +8,7 @@ export default function RepositoryGrid() {
   const [filteredRepositories, setFilteredRepositories] = useState([]);
 
   useEffect(() => {
-    fetch('/repos_portfolio.json')
+    fetch('https://github.com/xentzenith/my-portfolio/blob/master/public/repos_portfolio.json')
       .then(response => response.json())
       .then(data => {
         setRepositories(data);
