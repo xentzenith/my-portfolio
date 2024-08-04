@@ -7,7 +7,7 @@ export default function Profile() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch('/profile_data.json')
+    fetch('https://raw.githubusercontent.com/xentzenith/my-portfolio/master/public/profile_data.json')
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.error('Error fetching profile data:', error));
