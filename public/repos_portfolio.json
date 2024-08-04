@@ -1,0 +1,63 @@
+[
+    {
+      "id": "weather-forecast-app",
+      "by": "xentzenith",
+      "custom": {
+        "name": "Weather Forecast App",
+        "thumbnail": "/thumbnails/wf122.jpeg",
+        "shortDescription": "A React application that provides weather forecasts based on city names. It fetches weather data using the Open-Meteo API and geocodes locations with the Geocode Maps API. The app is deployed with GitHub Pages.",
+        "collaborators": [
+          {
+            "githubUsername": "xentzenith",
+            "githubURL": "https://github.com/xentzenith"
+          }
+        ]
+      }
+    },
+    {
+      "id": "task-manager-electron",
+      "by": "xentzenith",
+      "custom": {
+        "name": "Task Manager",
+        "thumbnail": "/thumbnails/tkmng.png",
+        "shortDescription": "A simple Electron-based task manager application with a custom menu bar, modal dialogs, and task management features. Built with Electron, it offers task creation, priority setting, and due date management.",
+        "collaborators": [
+          {
+            "githubUsername": "xentzenith",
+            "githubURL": "https://github.com/xentzenith"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Snake",
+      "by": "xentzenith",
+      "custom": {
+        "name": "Snake",
+        "thumbnail": "/thumbnails/snkgm.webp",
+        "shortDescription": "A little snake thing. Still experimental, but I guess it could last longer.",
+        "collaborators": [
+          {
+            "githubUsername": "xentzenith",
+            "githubURL": "https://github.com/xentzenith"
+          }
+        ]
+      }
+    },
+    {
+      "id": "multi-purpose-calculator",
+      "by": "xentzenith",
+      "custom": {
+        "name": "Calculator App",
+        "thumbnail": "/thumbnails/cclt.jpg",
+        "shortDescription": "One of the projects I started but could not finish (thanks to the front-end :LOL:).",
+        "collaborators": [
+          {
+            "githubUsername": "xentzenith",
+            "githubURL": "https://github.com/xentzenith"
+          }
+        ]
+      }
+    }
+  ]
+  

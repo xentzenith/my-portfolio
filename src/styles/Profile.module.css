@@ -1,0 +1,154 @@
+.timeline {
+    padding: 20px;
+  }
+  
+  .profile {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .profile .socials a {
+    margin-right: 10px;
+  }
+  
+  .experience,
+  .education,
+  .certifications,
+  .projects {
+    margin-bottom: 30px;
+  }
+  
+  .experienceItem,
+  .educationItem,
+  .certificationItem,
+  .projectItem {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--pico-bg-hover);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .timeline h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .description p {
+    margin: 0;
+  }
+  
+  .date,
+  .location {
+    font-size: 0.9em;
+    color: gray;
+  }
+  
+  .card {
+    background-color: var(--pico-bg-hover);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+  
+  .icon {
+    margin-left: 5px;
+  }
+  
+  .link-box {
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .link-box a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* New styles for the timeline container and items */
+  .timelineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timelineItem {
+    background-color: var(--pico-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 80%;
+    position: relative;
+  }
+  
+  .timelineItem::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--pico-primary);
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .timelineItem.left {
+    align-self: flex-start;
+  }
+  
+  .timelineItem.right {
+    align-self: flex-end;
+  }
+  
+  .timelineItem ul {
+    padding-left: 20px;
+  }
+  
+  .timelineItem ul li {
+    margin-bottom: 5px;
+  }
+  

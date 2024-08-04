@@ -1,0 +1,100 @@
+{
+    "profile": {
+      "name": "Ilker Ozturk",
+      "pronouns": "He/Him",
+      "role": "Student at Humber College & Fullstack Developer",
+      "summary": "Skilled website and app developer with a keen eye for detail and a strong passion for coding, open to collabs for any projects :)",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/ilker-ozturk/",
+        "github": "https://github.com/xentzenith",
+        "hackerrank": "https://www.hackerrank.com/profile/xentzenith"
+      }
+    },
+    "experience": [
+      {
+        "title": "Controller Technician Assistant",
+        "company": "Belnor Engineering Inc",
+        "duration": "Apr 2024 - Present",
+        "location": "Toronto, Ontario, Canada",
+        "details": [
+          "Install and configure Honeywell-based controllers and compatible sensors, ensuring optimal functionality and integration with existing systems.",
+          "Perform regular maintenance and troubleshooting of control systems to ensure smooth operation and prevent potential issues.",
+          "Conduct thorough testing and quality checks on installed devices to verify performance and compliance with industry standards."
+        ]
+      },
+      {
+        "title": "Database Developer (Internship)",
+        "company": "MODEL BİLGİ İŞLEM",
+        "duration": "Jul 2023 - Sep 2023",
+        "location": "Istanbul, Turkey",
+        "details": [
+          "Assisted in the design, development, and optimization of SQL queries, stored procedures, and functions to support various applications and reporting needs.",
+          "Identified and resolved database-related issues, ensuring smooth and uninterrupted database operations.",
+          "Participated in the design and implementation of database schemas, tables, and relationships, ensuring efficient data storage and retrieval."
+        ]
+      },
+      {
+        "title": "Assistant Electrician",
+        "company": "AYDIN Elektrik",
+        "duration": "Aug 2022 - Apr 2023",
+        "location": "Bursa, Turkey",
+        "details": [
+          "Assisted in installing electrical systems in residential, commercial, and industrial buildings, ensuring compliance with safety codes and regulations.",
+          "Helped with the layout and installation of electrical wiring, circuits, and outlets, ensuring efficient and safe connections."
+        ]
+      },
+      {
+        "title": "Assistant Waiter",
+        "company": "Anatolian Cuisine Restaurant",
+        "duration": "Jun 2022 - Aug 2022",
+        "location": "Bursa, Turkey",
+        "details": [
+          "Prepared dining areas by setting tables, arranging table settings, and ensuring cleanliness and orderliness.",
+          "Worked closely with the restaurant team to ensure efficient and smooth service operations during peak hours."
+        ]
+      },
+      {
+        "title": "Crew Member",
+        "company": "Arby's",
+        "duration": "Jun 2021 - Aug 2021",
+        "location": "Bursa, Turkey",
+        "details": [
+          "Performed routine cleaning tasks, including sanitizing workstations, washing dishes, and maintaining overall restaurant hygiene.",
+          "Delivered orders to customers in a timely manner, ensuring accuracy and satisfaction."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Humber College",
+        "degree": "Computer Programming",
+        "duration": "Jan 2024 - Aug 2025"
+      },
+      {
+        "institution": "Ondokuz Mayıs Üniversitesi",
+        "degree": "Course, Internet and Network Technologies",
+        "duration": "Sep 2022 - Dec 2023"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "JavaScript (Intermediate) - HackerRank",
+        "issuer": "HackerRank",
+        "issued_date": "Aug 2024",
+        "credential_id": "B2607B4B8153"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Task Manager App",
+        "description": "A simple Electron-based task manager application with a custom menu bar, modal dialogs, and task management features. Built with Electron, it offers task creation, priority setting, and due date management.",
+        "technologies": ["Electron.js", "JSON"]
+      },
+      {
+        "name": "Weather Forecast App",
+        "description": "The Weather Forecast App is a React-based application designed to provide weather forecasts for cities. It leverages the Open-Meteo API for weather data and the Geocode Maps API for converting city names into geographic coordinates.",
+        "technologies": ["React.js", "Tailwind CSS", "Axios", "Open-Meteo API", "Geocode Maps API"]
+      }
+    ]
+  }
+  

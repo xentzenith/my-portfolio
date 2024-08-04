@@ -1,0 +1,79 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+  grid-auto-rows: min-content; /* Ensures rows only take up necessary height */
+}
+
+.card {
+  background: var(--pico-bg);
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease; /* Smooth color transitions and zoom effect */
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 8px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 12px 0;
+  color: var(--pico-text);
+}
+
+.card:hover {
+  background-color: var(--pico-bg-hover);
+  border-color: var(--pico-primary);
+}
+
+.btn {
+  display: inline-block;
+  background: var(--pico-primary);
+  color: var(--pico-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.btn:hover {
+  background: var(--pico-primary-hover);
+  border: 2px solid var(--pico-primary-hover);
+  border-radius: 4px;
+}
+
+.search {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.search input {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid var(--pico-border);
+  border-radius: 4px;
+}
+
+.noResults {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--pico-text);
+  margin-top: 20px;
+}
+
+.noResults img {
+  width: 100px;
+  border-radius: 8px;
+  color: white;
+}
