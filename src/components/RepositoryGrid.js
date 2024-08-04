@@ -62,7 +62,7 @@ export default function RepositoryGrid() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}>
-            <img src="/no-result.svg" alt="No Results" />
+            <img src="https://raw.githubusercontent.com/xentzenith/my-portfolio/master/public/no-result.svg" alt="No Results" />
             No Results Found
             </motion.div>
         )}
